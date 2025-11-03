@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!--^ link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--^ link css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container mt-5 w-75 mx-auto shadow-lg p-5">
+        <div class="item">
+            <h1 class="text-center">Smart Login System</h1>
+            <div class="mb-1">
+                <label for="loginEmail" class="form-label"></label>
+                <input type="email" class="form-control p-2 text-white" id="loginEmail" placeholder="Enter your Email">
+            </div>
+            <div class="mb-4">
+                <label for="loginPassword" class="form-label"></label>
+                <input type="password" class="form-control p-2 text-white" id="loginPassword" placeholder="Enter your Password">
+            </div>
+            <button type="button" class="btn-login btn btn-outline-info w-100">login</button>
+            <span class="text-center mt-2 errorLogin d-none text-danger">Invalid email or password.</span>
+            <p class="text-center mt-3 text-white fw-semibold">Don’t have an account? <a class="text-decoration-none text-white" href="./sinup.html">Sign up</a></p>
+        </div>
+    </div>
+
+    <!--^ link bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!--^ link js -->
+    <script src="./js/website.js"></script>
+</body>
+</html>
