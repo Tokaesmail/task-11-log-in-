@@ -160,7 +160,7 @@ function display(){
         document.body.innerHTML+=data;
     }
 }
-if(window.location.pathname.includes("/login.html")){
+if(window.location.pathname.includes("./login.html")){
     display();
 }
 
