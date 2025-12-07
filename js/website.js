@@ -135,7 +135,7 @@ function loginInput(){
 
     if(found){
         localStorage.setItem("loggedInUser", found.name);
-        window.location.href = "/login.html"; 
+        window.location.href = "./login.html";
     }else{
         errorLogin.classList.replace("d-none", "d-block");
         errorLogin.classList.remove("d-none");
