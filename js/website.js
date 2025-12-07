@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded",function(){
     if(btnlogout){
     btnlogout.addEventListener("click",function(){
             localStorage.removeItem("loggedInUser");
-            window.location.href = "/index.html"; 
+            window.location.href =" ./index.html"; 
         })
     }
 })
